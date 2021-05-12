@@ -12,7 +12,7 @@ body{
 }
 
 .body-home{
- background-image: url('images/background-01-port.png');
+ background-image: url('images/background-01-port.jpg');
 background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ background-position: center;
 /*========== HEADER ==========*/
 
 .header{
-    background-color: #2196f3;
+    background-color:#696969;
     
     width:100%;
     height: 50px;
@@ -55,7 +55,8 @@ background-position: center;
 
 /*========== Home Page ==========*/
 #home-logo-image{
-    width: 50px;
+    width: 280px;
+	height: 320px;
     display:block;
     margin: auto;
     padding: 25px 10px 10px 10px;
@@ -87,6 +88,9 @@ background-position: center;
     width: 80%;
 }
 
+.home-menu :hover{
+    color: black;
+}
 
 /*========== Meals Page ==========*/
 #meals {
@@ -105,8 +109,13 @@ background-position: center;
 .meals-list-item h1 {
     font-weight: bold;
     font-size: 20px;
-    color: #1a1a1a;
+    color: #2b2a2a;
     padding-left: 10px;
+}
+.meals-list-item h1:hover {
+    font-weight: bold;
+    font-size: 26px;
+    color: #fcfcfc;
 }
 .meals-list-item i {
     float: right;
@@ -116,10 +125,12 @@ background-position: center;
 .meals-list-item p {
     font-size: 15px;
     font-style: italic;
-    color: #4d4d4d;
+    color: #b5b5b5;
     margin-top: -7px;
     padding-left: 10px;
 }
+
+
 
 
 /*========== Recipe Page ==========*/
@@ -146,10 +157,9 @@ background-position: center;
     margin-left: 10px;
 }
 
-.recipe-details-info {
-    margin-left: 25px;
-    margin-right: 25px;
-    
+.recipe-details-info{
+	margin-left: 25px;
+	margin-right: 25px;
 }
 .recipe-details-info p{
     font-size: 13px;
@@ -166,6 +176,46 @@ background-position: center;
 }
 recipe-details-steps ol {
     padding-left: 28px;
+}
+
+input #name{
+	width: 100%;
+	height: 25px;
+	margin: 13px 0;
+	border: 3px solid black;
+}
+
+input #email{
+	width: 100%;
+	height: 25px;
+	margin: 13px 0;
+	border: 15px solid black;
+}
+
+textarea{
+    width: 100%;
+    height :25px;
+    margin : 12px 0;
+    border : 1px solid #929292;
+}
+
+.button{
+    display : block;
+    background-color: forestgreen;
+    text-decoration : none;
+    text-align  : center;
+    color       : white;
+    font-size   : 16px;
+    font-weight : 600;
+    margin : 12px 0;
+    padding : 8px 0;
+}
+.button:hover{
+    background-color:#696969;
+}
+hr {
+  border: 6px solid grey;
+  border-radius: 5px;
 }
 
 /*========== Responsive Layout ==========*/
@@ -212,7 +262,6 @@ recipe-details-steps ol {
     }
 }
     
-
 
 
 
